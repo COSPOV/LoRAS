@@ -13,7 +13,7 @@ This repository provides an implementation of the integrated LoRAS algorithm for
 
 - **sigma** corresponds to the standrd deviation for a Gaussian distribution to draw noise from. The standard value of sigma can be taken  as 0.005. Although in the original pseudocode it is proposed that a list of feature-wise sigma values is taken as input, we have noticed that a standard value of small enough sigma works quite well. 
 
-- **num_RACOS** corresponds to the paramter $N_{gen}$ from the original pseudocode. The standard value for this parameter is int(\frac{|C^T_{maj}|-|C^T_{min}|}{|C^T_{min}|}), where |C^T_{maj}|$ and $|C^T_{min}| are the number of majority and minority instances in the training dataset, that is provided as input to the **LoRAS_gen** function and the $int$ function refers to the gratest integer floor function in case \frac{|C^T_{maj}|-|C^T_{min}|}{|C^T_{min}|} is a float value. 
+- **num_RACOS** corresponds to the paramter [N_{gen}] from the original pseudocode. The standard value for this parameter is int(\frac{|C^T_{maj}|-|C^T_{min}|}{|C^T_{min}|}), where |C^T_{maj}|$ and $|C^T_{min}| are the number of majority and minority instances in the training dataset, that is provided as input to the **LoRAS_gen** function and the $int$ function refers to the gratest integer floor function in case \frac{|C^T_{maj}|-|C^T_{min}|}{|C^T_{min}|} is a float value. 
 
 - **num_convcomb** corresponds to the parameter N_{aff} from the original pseudocode.
 
