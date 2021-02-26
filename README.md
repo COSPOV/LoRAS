@@ -7,7 +7,7 @@ This repository provides an implementation of the integrated LoRAS algorithm for
 
 - Other parameters are **convex_neighbourhood**, **shadow**, **sigma**, **num_RACOS**, **num_convcomb**
 
-- **convex_neighbourhood** corresponds to the parameter $k$ from the pseudocode in the original article. The standard value of this parameter shouldbe $5-10$. However for larger datasets (minority class size more than 500) it can be extended to $20-30$.
+- **convex_neighbourhood** corresponds to the parameter \\k\\ from the pseudocode in the original article. The standard value of this parameter shouldbe $5-10$. However for larger datasets (minority class size more than 500) it can be extended to $20-30$.
 
 - **shadow** corresponds to the parameter $|S_p|$ from the pseudocode in the original article. The standard value of this parameter is to be kept around $100$.
 
