@@ -18,7 +18,7 @@ This repository provides an implementation of the integrated LoRAS algorithm for
 - **num_convcomb** corresponds to the parameter $N_{aff}$ from the original pseudocode.
 
 
-                                                    ::CAUTION::
+                                                                            ::CAUTION::
                                                     
 **The algorithm is most sensitive to the num_convcomb parameter. For high dimensional datasets with $F$ feature we highly recommend an user to optimize this parameter with values** [$2$, $int(\frac{F}{4})$, $int(\frac{F}{2})$, $F$], **and use the optimal parameter value, to get the best out of this algorithm.**
 
